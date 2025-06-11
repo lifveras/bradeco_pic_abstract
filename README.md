@@ -17,10 +17,10 @@ src/main/java/io/github/lifveras/bredeco\_pic\_abstract/
 │   ├── ComponentInterface.java
 │   └── InterfacePort.java
 └── required/
-├── BroadcastPortOutbox.java
-├── NonComponentPortOutbox.java
-├── PortOutbox.java
-└── StandardPortOutbox.java
+│   ├── BroadcastPortOutbox.java
+│   ├── NonComponentPortOutbox.java
+│   ├── PortOutbox.java
+│   └── StandardPortOutbox.java
 
 ````
 
@@ -47,6 +47,7 @@ Adicione a dependência no seu `pom.xml`:
 ````
 
 Você pode então criar suas implementações concretas estendendo as classes abstratas ou implementando as interfaces fornecidas neste artefato.
+
 ---
 
 ## Sobre o autor do padrão
